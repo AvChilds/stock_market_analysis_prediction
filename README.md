@@ -2,7 +2,7 @@
 
 
 # CFG Group 5 Project
-## Stock Prediction Algorithm
+## Stock Performance Prediction Algorithm
 
 ## Group Members 🌟 
 
