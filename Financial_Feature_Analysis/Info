@@ -1,0 +1,2 @@
+These files focus on the cleaning of raw data using the stock_screening_v2.xlsx file.
+Once the data is cleaned, the data is analysed to try and establish if there is a relationship between our features and returns.
