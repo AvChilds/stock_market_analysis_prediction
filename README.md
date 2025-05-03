@@ -48,6 +48,7 @@ pip install pandas numpy scipy matplotlib seaborn scikit-learn
 ```
 
 ### 2. Data source
+
 We used the Excel file CFG_Stock_Screening_V2.xlsx as our raw data.
 
 1. Pull down the file from the online repository or download the file directly from the repository..
@@ -56,10 +57,9 @@ We used the Excel file CFG_Stock_Screening_V2.xlsx as our raw data.
 4. Execute all cells to load the raw Excel data and drop any columns or dates with zeros, NaNs and extreme outliers.
 5. Export the cleaned tables as CSV files (e.g. cleaned_roe.csv, cleaned_CFO.csv).
 
-Once that’s done, you’ll have cleaned CSV files ready for the Machine Learning portion of the project.
-
 ### 3. Data Analysis
-1. Continue to run the code to view the analysis of the individual features including analysing:
+
+Continue to run the code to view the analysis of the individual features including analysing:
     - Means & Medians
     - Correlations
     - Distributions
@@ -67,4 +67,6 @@ Once that’s done, you’ll have cleaned CSV files ready for the Machine Learni
     - Conclusions
 
 ### 4. Machine Learning
-Once your data is cleaned and you’ve explored the key relationships, you’re ready to train and evaluate your ML model
+
+The cleaned data csv exports were used for the machine learning aspect of this project.
+- All cleaned data sets are available in the "Cleaned_Data" folder.
