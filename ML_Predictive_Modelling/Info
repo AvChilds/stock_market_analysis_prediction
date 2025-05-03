@@ -1,0 +1,2 @@
+This folder contains the Stock_Screening_Project file. This encorporates all the clean datasets which is then put into a ML algorithm to help predict stock performances.
+The csv file is the output of the model.
