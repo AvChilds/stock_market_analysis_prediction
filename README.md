@@ -44,18 +44,18 @@ There are 4 folders:
 4. Cleaned_Data
 5. Results
 
-### Raw_Data ###
+### 1. Raw_Data ###
 This contains 2 files:
 - Stock_Screening V2: This is the initial dataset that was used for ALL feature analysis.
 - Stock_Screening Live: This is used later in the project during the machine learning piece. It is used in the Stock_Screening_Project file.
 
-### CFG_Data_Analysis_Files ###
+### 2. CFG_Data_Analysis_Files ###
 This folder contains 9 different files where all the data cleaning and analysis was completed.
 
-### Cleaned_Data ###
+### 3. Cleaned_Data ###
 This folder contains all of the cleaned data sets that were exported for the machine learning aspect of this project.
 
-### Results ###
+### 4. Results ###
 This folder contains an exported csv file which occurs during the execution of the Stock_Screening_Project code. The file contains "The Top 10 stocks which are likely to outperform the market".
 
 
