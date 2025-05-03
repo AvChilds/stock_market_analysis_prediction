@@ -38,25 +38,29 @@
 
 ## Exploring The Repository
 
-There are 4 folders:
+There are 5 folders:
 1. Raw_Data: This contains the initial stock screening raw data file used for the initial feature analysis
-3. CFG_Data_Analysis_Files
-4. Cleaned_Data
-5. Results
+2. Financial_Feature_Analysis
+3. Cleaned_Data
+4. Macroeconomics_Analysis
+5. ML_Predictive_Modelling
 
 ### 1. Raw_Data ###
 This contains 2 files:
 - Stock_Screening V2: This is the initial dataset that was used for ALL feature analysis.
 - Stock_Screening Live: This is used later in the project during the machine learning piece. It is used in the Stock_Screening_Project file.
 
-### 2. CFG_Data_Analysis_Files ###
-This folder contains 9 different files where all the data cleaning and analysis was completed.
+### 2. Financial_Feature_Analysis ###
+This folder contains 8 different files where all the data cleaning and analysis was completed.
 
 ### 3. Cleaned_Data ###
 This folder contains all of the cleaned data sets that were exported for the machine learning aspect of this project.
 
-### 4. Results ###
-This folder contains an exported csv file which occurs during the execution of the Stock_Screening_Project code. The file contains "The Top 10 stocks which are likely to outperform the market".
+### 4. Macroeconomics_Analysis ###
+This folder contains all of the cleaned data sets that were exported for the machine learning aspect of this project.
+
+### 5. ML_Predictive_Modelling ###
+This folder contains the Stock_Screening_Project ML & Predictive modelling file along with an exported csv file which occurs during the execution of the Stock_Screening_Project code. The file contains "The Top 10 stocks which are likely to outperform the market".
 
 
 ## Getting Started
@@ -92,12 +96,24 @@ Continue to run the code to view the analysis of the individual features includi
 - Significance
 - Conclusions
 
-### 4. Machine Learning (ML)
+### 4. Macroeconomics Analysis
+
+This section utilises online data sources which we're able to obtain using APIs.
+
+1. Pull down the file from the online repository or download the file directly from the repository (Found in the folder "Macroeconomic_Analysis").
+2. Open up each analysis file using VS Code or Jupyter Notebook.
+3. Update the file path at the top of the code to point to your local copy of the raw data source, for example:
+```
+ pd.read_excel('C:/Users/Desktop/Data/....')
+```
+4. Execute all cells to pull the data via the API and have the code run through the analysis.
+
+### 5. Machine Learning (ML)
 
 The cleaned data csv exports were used for the machine learning aspect of this project.
 
 1. All cleaned data sets are available in the "Cleaned_Data" folder - Download to your local repository.
-2. Download the file to run for this aspect of the project: "Stock_Screening_Project" (Found in the "CFG_Data_Analysis_Files" folder).
+2. Download the file to run for this aspect of the project: "Stock_Screening_Project" (Found in the "Financial_Feature_Analysis" folder).
 3. Update the file path at the top of the code to point to your local copy of the cleaned data sources along with the original stocks_screening_v2.xlsx file, for example:
 ```
  pd.read_excel('C:/Users/Desktop/Data/....')
