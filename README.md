@@ -51,7 +51,7 @@ pip install pandas numpy scipy matplotlib seaborn scikit-learn
 
 We used the Excel file CFG_Stock_Screening_V2.xlsx as our raw data.
 
-1. Pull down the file from the online repository or download the file directly from the repository..
+1. Pull down the file from the online repository or download the file directly from the repository.
 2. Open up each analysis file using VS Code or Jupyter Notebook.
 3. Update the file path at the top of the code to point to your local copy of the raw data source, for example: 'C:/Users/Desktop/Data"
 4. Execute all cells to load the raw Excel data and drop any columns or dates with zeros, NaNs and extreme outliers.
@@ -66,7 +66,12 @@ Continue to run the code to view the analysis of the individual features includi
     - Significance
     - Conclusions
 
-### 4. Machine Learning
+### 4. Machine Learning (ML)
 
 The cleaned data csv exports were used for the machine learning aspect of this project.
-- All cleaned data sets are available in the "Cleaned_Data" folder.
+
+1. All cleaned data sets are available in the "Cleaned_Data" folder - Download to your local repository.
+2. Download the file to run for this aspect of the project: "Stock_Screening_Project".
+3. Open up each analysis file using VS Code or Jupyter Notebook.
+4. Update the file path at the top of the code to point to your local copy of the cleaned data sources, for example: 'C:/Users/Desktop/Data"
+5. Execute all cells to load the cleaned data and run the ML code.
