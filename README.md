@@ -75,3 +75,4 @@ The cleaned data csv exports were used for the machine learning aspect of this p
 3. Open up each analysis file using VS Code or Jupyter Notebook.
 4. Update the file path at the top of the code to point to your local copy of the cleaned data sources, for example: 'C:/Users/Desktop/Data"
 5. Execute all cells to load the cleaned data and run the ML code.
+6. The Top 10 stocks which are likely to outperform the market are then saved to a csv file (Example file found in the "Results" folder).
