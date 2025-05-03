@@ -13,19 +13,14 @@
 5. Laura Lloyd (Submission Lead)
 6. Esther Nunsubuga (Presentation Lead)
 
-## Project Question
+## Project Aims & Objectives
 
-> Can we develop a Machine Learning model that reliably predicts the 
-> likelihood of a selection of stocks in the next year that can outperform 
-> the market/generate capital gains based on historical financial and 
-> pricing data?
+The primary objective of this project is to analyse and predict the stock performance of S&P 500 companies by leveraging key financial indicators and macroeconomic data. 
 
-## Project Objective
-
-> The objective of this project is to develop a Machine Learning (ML) 
-> model to assist investment professionals in selecting stocks from the S&P
-> 500 index that have the potential to generate capital gains over the next 
-> year.
+We aim to:
+●	Identify the financial metrics most strongly correlated with stock outperformance
+●	Analyse macroeconomic indicators, namely Consumer Price Index (CPI) and Federal Reserve Interest Rates to assess their effect on the S&P 500 index performance.
+●	Develop a Machine learning model to select 10 stocks each month that are likely to outperform the market based on historical data.
 
 ## Key Dates
 
