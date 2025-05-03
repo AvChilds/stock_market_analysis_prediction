@@ -18,9 +18,9 @@
 The primary objective of this project is to analyse and predict the stock performance of S&P 500 companies by leveraging key financial indicators and macroeconomic data. 
 
 We aim to:
-●	Identify the financial metrics most strongly correlated with stock outperformance
-●	Analyse macroeconomic indicators, namely Consumer Price Index (CPI) and Federal Reserve Interest Rates to assess their effect on the S&P 500 index performance.
-●	Develop a Machine learning model to select 10 stocks each month that are likely to outperform the market based on historical data.
+- Identify the financial metrics most strongly correlated with stock outperformance
+- Analyse macroeconomic indicators, namely Consumer Price Index (CPI) and Federal Reserve Interest Rates to assess their effect on the S&P 500 index performance.
+- Develop a Machine learning model to select 10 stocks each month that are likely to outperform the market based on historical data.
 
 ## Key Dates
 
