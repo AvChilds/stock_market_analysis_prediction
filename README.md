@@ -98,11 +98,10 @@ The cleaned data csv exports were used for the machine learning aspect of this p
 
 1. All cleaned data sets are available in the "Cleaned_Data" folder - Download to your local repository.
 2. Download the file to run for this aspect of the project: "Stock_Screening_Project" (Found in the "CFG_Data_Analysis_Files" folder).
-3. Update the file path at the top of the code to point to your local copy of the cleaned data sources, for example:
+3. Update the file path at the top of the code to point to your local copy of the cleaned data sources along with the original stocks_screening_v2.xlsx file, for example:
 ```
  pd.read_excel('C:/Users/Desktop/Data/....')
 ```
-Please note: You will still need to utilise the initial "Stock_Screening_V2.xlsx" file at this point too.
-4. At code line [ ], you will need to update the file path for the "Stock_Screening_Live.xlsx" file.
-5. Execute all cells to load the cleaned data and run the code.
+4. At the section "For Live Monthly Workflow", you will need to update the file path for the "Stock_Screening_Live.xlsx" file.
+5. Execute all cells to load the data and run the code.
 6. The Top 10 stocks which are likely to outperform the market are then saved to a csv file (Example file found in the "Results" folder).
