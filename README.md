@@ -60,11 +60,11 @@ We used the Excel file CFG_Stock_Screening_V2.xlsx as our raw data.
 ### 3. Data Analysis
 
 Continue to run the code to view the analysis of the individual features including analysing:
-    - Means & Medians
-    - Correlations
-    - Distributions
-    - Significance
-    - Conclusions
+- Means & Medians
+- Correlations
+- Distributions
+- Significance
+- Conclusions
 
 ### 4. Machine Learning (ML)
 
