@@ -62,7 +62,7 @@ This folder contains 2 .ipynb files where data sourcing, cleaning and analysis o
 ### 5. ML_Predictive_Modelling ###
 This folder contains the Stock_Screening_Project.ipynb ML & Predictive modelling file, along with an exported .csv  results file which occurs during the execution of the Stock_Screening_Project code. The file contains "The Top 10 stocks which are likely to outperform the market".
 
-### 6. cfgDSGroup5_Project_Documentation-Stock_Analysis_Prediction ###
+### 6. Project_Documentation-Stock_Analysis_Prediction ###
 This .pdf project specification document details:
  - The objectives and background of the project
  - Roadmap and methology
