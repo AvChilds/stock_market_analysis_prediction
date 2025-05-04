@@ -77,7 +77,7 @@ This .pdf document provides further detail and explanations on key finicial term
 
 All of our coding was done in **Jupyter Notebooks**. You may wish to read the project documentation "Project_Documentation-Stock_Analysis_Prediction.pdf" to gain an overview of the project prior exploring and running the source code. 
 
-### 1. Install and required Python modules  
+### 1. Install required Python modules  
 * Make sure you have Python 3.7+ installed, then in your terminal run, install the require python modules and libraries by using the following sample code:  
 ```bash
 pip install pandas numpy scipy matplotlib seaborn scikit-learn 
