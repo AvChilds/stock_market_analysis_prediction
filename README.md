@@ -83,7 +83,7 @@ All of our coding was done in **Jupyter Notebooks**. You may wish to read the pr
 pip install pandas numpy scipy matplotlib seaborn scikit-learn 
 
 ```
-*Ensure that you import the relevant libraries that are required. The libraries are stated at the start of each .ipynb file and should be run each time. The libraries used the project are 
+Import the relevant libraries that are required. The libraries are stated at the start of each .ipynb file and should be run each time. The libraries used the project are 
 - Statistical Libraries (Python):  numpy, pandas, scipy, Sci-kit Learn, Joblib.
 - Data visualisation libraries (Python): Matplotlib, Seaborn, Plotly.
 
