@@ -41,7 +41,7 @@ There are 5 folders:
 5. ML_Predictive_Modelling
 
 There are 2 additional pdf documents:
-1. Project Documentation -  cfgDSGroup5_Project_Documentation-Stock_Analysis_Prediction.pdf
+1. Project_Documentation-Stock_Analysis_Prediction.pdf
 2. Key Financial Terms.pdf
 
  
