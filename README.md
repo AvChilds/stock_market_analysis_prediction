@@ -93,7 +93,7 @@ Import the relevant libraries that are required. The libraries are stated at the
 We used the Excel file **Stock_Screening_CFG v2.xlsx** as our raw data (found in the "Raw_Data" folder).
 
 1. Pull down this file from the online repository or download the file directly from the repository, taking note of the file path.
-2. Open up each feature analysis file from the folder "Financial_Feature_Analysis" using Jupyter Notebooks (Excluding the "Stocks_Screening_Project" file, this is used later in the project).
+2. Open up each feature analysis file from the folder "Financial_Feature_Analysis" using Jupyter Notebooks.
 3. Update the file path at the top of the code, within the pd.read_excel(), with the file path of your local copy of **Stock_Screening_CFG v2.xlsx**, for example:
 ```
  pd.read_excel('C:/Users/Desktop/Data/....')
