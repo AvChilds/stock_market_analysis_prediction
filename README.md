@@ -1,18 +1,15 @@
-![alt text](https://codefirstgirls.com/wp-content/uploads/2022/04/CFGDegree-Logo-2.png "CFG Logo")
 
-
-# CFG Group 5 Project
-## Stock Performance Prediction Algorithm
+## Data Science Project: Stock Analysis and Performance Prediction of S&P500 Companies
 
 ## Group Members 🌟 
 
-1. Laura Davies (GitHub Coordordinator)
-2. Avril Childs (Project Lead)
+1. Avril Childs (Project Lead)
+2. Laura Davies (GitHub Coordordinator)
 3. Wei Shi (Technical Lead)
 4. Bushra Abodher (Task Coordinator)
 5. Laura Lloyd (Submission Lead)
 6. Esther Nunsubuga (Presentation Lead)
-
+ 
 ## Project Aims & Objectives
 
 The primary objective of this project is to analyse and predict the stock performance of S&P 500 companies by leveraging key financial indicators and macroeconomic data. 
