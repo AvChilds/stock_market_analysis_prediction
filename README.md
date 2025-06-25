@@ -1,91 +1,107 @@
+# Data Science Project: Stock Analysis & Performance Prediction of S&P 500 Companies
 
-## Data Science Project: Stock Analysis and Performance Prediction of S&P500 Companies
+---
 
-## Group Members 🌟 
+## 🙏 Introduction
 
-1. Avril Childs (Project Lead)
-2. Laura Davies (GitHub Coordordinator)
-3. Wei Shi (Technical Lead)
-4. Bushra Abodher (Task Coordinator)
-5. Laura Lloyd (Submission Lead)
-6. Esther Nunsubuga (Presentation Lead)
- 
-## Project Aims & Objectives
+Thank you for checking out our repository! This is a **group project** completed as our first Data Science assignment, in which we achieved **near full marks**. I served as **Project Lead**, overseeing the **PEG & ROA analyses**, authoring the **project document** and **presentation**, and contributing to the **machine learning** component.
 
-The primary objective of this project is to analyse and predict the stock performance of S&P 500 companies by leveraging key financial indicators and macroeconomic data. 
+---
 
-We aim to:
-- Identify the financial metrics most strongly correlated with stock outperformance
-- Analyse macroeconomic indicators, namely Consumer Price Index (CPI) and Federal Reserve Interest Rates to assess their effect on the S&P 500 index performance.
-- Develop a Machine learning model to select 10 stocks each month that are likely to outperform the market based on historical data.
+## 🌟 Team Members
 
-## Key Dates
+| Name                    | Role                            |
+|-------------------------|---------------------------------|
+| **Avril Childs**        | Project Lead                    |
+| Laura Davies            | GitHub Coordinator              |
+| Wei Shi                 | Technical Lead                  |
+| Bushra Abodher          | Task Coordinator                |
+| Laura Lloyd             | Submission Lead                 |
+| Esther Nunsubuga        | Presentation Lead               |
 
-1. Project Proposal Submission 📋: **11th April**
-2. Discussion with Instructor: **w/c 14th April**
-3. Project Submission 📚: **4th May**
-4. Project Presentation 📢 : **9th May**
+---
 
-   ---
+## 🎯 Project Aims & Objectives
 
-## Exploring The Repository
+We set out to analyse and predict S&P 500 stock performance by combining **financial indicators** with **macroeconomic data**. Specifically, we aim to:
 
-There are 5 folders:
-1. Raw_Data: This contains the initial stock screening raw data file used for the initial feature analysis
-2. Financial_Feature_Analysis
-3. Cleaned_Data
-4. Macroeconomics_Analysis
-5. ML_Predictive_Modelling
+1. **Identify** financial metrics most strongly correlated with outperformance  
+2. **Assess** the impact of CPI & Federal Reserve interest rates on overall market trends  
+3. **Build** a machine-learning model to select **10 top stocks** each month likely to outperform
 
-There are 2 additional pdf documents:
-1. Project_Documentation-Stock_Analysis_Prediction.pdf
-2. Key Financial Terms.pdf
+---
 
- 
-### 1. Raw_Data ###
-This contains 2 files:
-- Stock_Screening V2: This is the initial dataset that was used for ALL feature analysis.
-- Stock_Screening Live: This is used later in the project during the machine learning piece. It is used in the Stock_Screening_Project file.
+## 📅 Key Dates
 
-### 2. Financial_Feature_Analysis ###
-This folder contains 8 different .ipynb (Jupyter Notebook) files where all the data cleaning and analysis was completed for 8 different financial features.
+| Milestone                         | Date           |
+|-----------------------------------|----------------|
+| Proposal Submission 📋            | 11 April 2025  |
+| Discussion with Instructor        | w/c 14 April   |
+| Final Submission 📚               | 4 May 2025     |
+| Project Presentation 📢           | 9 May 2025     |
 
-### 3. Cleaned_Data ###
-This folder contains all of the cleaned data (in .csv format) sets that were exported for the machine learning aspect of this project.
+---
 
-### 4. Macroeconomics_Factor Analysis ###
-This folder contains 2 .ipynb files where data sourcing, cleaning and analysis of 2 macroeconomic factors - Consumer Price Index and Federal Reserve Interest Rate
-
-### 5. ML_Predictive_Modelling ###
-This folder contains the Stock_Screening_Project.ipynb ML & Predictive modelling file, along with an exported .csv  results file which occurs during the execution of the Stock_Screening_Project code. The file contains "The Top 10 stocks which are likely to outperform the market".
-
-### 6. Project_Documentation-Stock_Analysis_Prediction ###
-This .pdf project specification document details:
- - The objectives and background of the project
- - Roadmap and methology
- - Project requirements 
- - Results and Recommendation
-
-### 7. Key Financial Terms
-This .pdf document provides further detail and explanations on key finicial terminology used within the project. 
+## 📂 Repository Structure
 
 
-## Getting Started 
+### 📁 Raw_Data
+- `Stock_Screening_V2.xlsx` – initial dataset for all feature analyses  
+- `Stock_Screening_Live.xlsx` – live data used in the ML phase
 
-All of our coding was done in **Jupyter Notebooks**. You may wish to read the project documentation "Project_Documentation-Stock_Analysis_Prediction.pdf" to gain an overview of the project prior exploring and running the source code. 
+### 📁 Financial_Feature_Analysis
+Contains **8 Jupyter Notebooks** (`.ipynb`), each cleaning and analysing one financial feature.
 
-### 1. Install required Python modules  
-* Make sure you have Python 3.7+ installed, then in your terminal run, install the require python modules and libraries by using the following sample code:  
+### 📁 Cleaned_Data
+Exported **CSV** files from feature analyses, ready for modelling:
+- `cleaned_ROA.csv`  
+- `cleaned_PEG.csv`  
+- …and others
+
+### 📁 Macroeconomic_Analysis
+**2 Notebooks** covering:
+- Consumer Price Index (CPI)  
+- Federal Reserve Interest Rate
+
+### 📁 ML_Predictive_Modelling
+- `Stock_Screening_Project.ipynb` – end-to-end ML workflow  
+- `Top10_Stock_Predictions.csv` – model outputs
+
+### 📄 Project_Documentation-Stock_Analysis_Prediction.pdf
+Full project spec: objectives, methodology, requirements, results & recommendations.
+
+### 📄 Key_Financial_Terms.pdf
+Glossary of financial terminology used across analyses.
+
+---
+
+## 🚀 Getting Started
+
+All analyses are in **Jupyter Notebooks**. We recommend reading the PDF documentation first for context.
+
+### Prerequisites
+
+- Python 3.7+  
+- Jupyter Notebook or JupyterLab  
+
+### Install Dependencies
+
+In your local environment, run:
+
 ```bash
-pip install pandas numpy scipy matplotlib seaborn scikit-learn 
-
+pip install \
+  pandas \
+  numpy \
+  scipy \
+  matplotlib \
+  seaborn \
+  plotly \
+  scikit-learn \
+  joblib
 ```
-Import the relevant libraries that are required. The libraries are stated at the start of each .ipynb file and should be run each time. The libraries used the project are 
-- Statistical Libraries (Python):  numpy, pandas, scipy, Sci-kit Learn, Joblib.
-- Data visualisation libraries (Python): Matplotlib, Seaborn, Plotly.
 
 
-### 2. Financial Feature Analysis
+### Financial Feature Analysis
 
 We used the Excel file **Stock_Screening_CFG v2.xlsx** as our raw data (found in the "Raw_Data" folder).
 
@@ -96,7 +112,7 @@ We used the Excel file **Stock_Screening_CFG v2.xlsx** as our raw data (found in
  pd.read_excel('C:/Users/Desktop/Data/....')
 ```
 4. Execute all cells to load the raw Excel data and perform data cleaning and analysis
-5. 6. The cleaned data will be saved in your local folder as CSV files (e.g. cleaned_roe.csv, cleaned_CFO.csv).
+5. The cleaned data will be saved in your local folder as CSV files (e.g. cleaned_roe.csv, cleaned_CFO.csv).
 6. Continue to run the code to view the analysis of the individual features including analysing:
 - Means & Medians
 - Correlations
@@ -105,7 +121,7 @@ We used the Excel file **Stock_Screening_CFG v2.xlsx** as our raw data (found in
 - Results/Conclusions
 
 
-### 3. Macroeconomics Factor Analysis
+### Macroeconomic Factor Analysis
 
 This section utilises online data sources which we're able to obtain using APIs.
 
@@ -115,9 +131,10 @@ This section utilises online data sources which we're able to obtain using APIs.
 ```
  pd.read_excel('C:/Users/Desktop/Data/....')
 ```
-4. Execute all cells to pull the data via the API and have the code run through the analysis.
 
-### 5. Machine Learning (ML)
+Execute all cells to pull the data via the API and have the code run through the analysis.
+
+### Machine Learning (ML)
 
 The cleaned data .csv exports were used for the machine learning aspect of this project.
 
